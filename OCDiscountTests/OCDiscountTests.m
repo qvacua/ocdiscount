@@ -1,32 +1,42 @@
-//
-//  OCDiscountTests.m
-//  OCDiscountTests
-//
-//  Created by Tae on 4/13/13.
-//  Copyright (c) 2013 Tae Won Ha. All rights reserved.
-//
+/**
+ * Tae Won Ha
+ * http://qvacua.com
+ * https://github.com/qvacua
+ *
+ * See LICENSE
+ */
 
-#import "OCDiscountTests.h"
+#import <SenTestingKit/SenTestingKit.h>
+#import <OCDiscount/OCDiscount.h>
+#define HC_SHORTHAND
+#import <OCHamcrest/OCHamcrest.h>
 
+@interface OCDiscountTests : SenTestCase
+@end
+
+/**
+* Dummy tests only to check whether OCDiscount.framework correctly wraps discount.
+*/
 @implementation OCDiscountTests
 
-- (void)setUp
-{
-    [super setUp];
-    
-    // Set-up code here.
+- (void)testWoFlags {
+    NSString *pathForTableMd = [[NSBundle bundleForClass:[self class]] pathForResource:@"table" ofType:@"markdown"];
+    NSString *tableMd = [NSString stringWithContentsOfFile:pathForTableMd encoding:NSUTF8StringEncoding error:NULL];
+
+    NSString *pathForTableHtml = [[NSBundle bundleForClass:[self class]] pathForResource:@"table" ofType:@"html"];
+    NSString *tableHtml = [[NSString stringWithContentsOfFile:pathForTableHtml encoding:NSUTF8StringEncoding error:NULL] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+
+    assertThat([tableMd htmlFromMarkdown], is(tableHtml));
 }
 
-- (void)tearDown
-{
-    // Tear-down code here.
-    
-    [super tearDown];
-}
+- (void)testWithFlags {
+    NSString *pathForTableMd = [[NSBundle bundleForClass:[self class]] pathForResource:@"table" ofType:@"markdown"];
+    NSString *tableMd = [NSString stringWithContentsOfFile:pathForTableMd encoding:NSUTF8StringEncoding error:NULL];
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in OCDiscountTests");
+    NSString *pathForNoTableHtml = [[NSBundle bundleForClass:[self class]] pathForResource:@"notable" ofType:@"html"];
+    NSString *noTableHtml = [[NSString stringWithContentsOfFile:pathForNoTableHtml encoding:NSUTF8StringEncoding error:NULL] stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+
+    assertThat([tableMd htmlFromMarkdownWithFlags:OCStrict], is(noTableHtml));
 }
 
 @end

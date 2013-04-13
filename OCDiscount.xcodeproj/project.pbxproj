@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1929B0E0F2096173BF8921AD /* NSString+OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 1929B9B0EF80EC90A3A6B632 /* NSString+OCDiscount.m */; };
+		1929B23F1248C42FE7E38F70 /* table.html in Resources */ = {isa = PBXBuildFile; fileRef = 1929BA9DE027905EFC6F3B21 /* table.html */; };
+		1929B33A015D291828935B65 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1929B7FACFF21FFD2C919252 /* OCHamcrest.framework */; };
+		1929B6D7E4AB65157A74DCB7 /* notable.html in Resources */ = {isa = PBXBuildFile; fileRef = 1929B83854B60FFB3188263F /* notable.html */; };
+		1929BAAEBF6CBBEF8F7E9837 /* NSString+OCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BED88B9E3217AB7AC8FF /* NSString+OCDiscount.h */; settings = {ATTRIBUTES = (); }; };
+		1929BB705E073E6DA4DE8A49 /* table.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 1929B06D2FDC8F16DE1FD13B /* table.markdown */; };
 		4B3EFF4C17199EC200D1D951 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4B17199EC200D1D951 /* Cocoa.framework */; };
 		4B3EFF5617199EC200D1D951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF5417199EC200D1D951 /* InfoPlist.strings */; };
-		4B3EFF5A17199EC200D1D951 /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF5917199EC200D1D951 /* OCDiscount.m */; };
 		4B3EFF6217199EC200D1D951 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF6117199EC200D1D951 /* SenTestingKit.framework */; };
 		4B3EFF6317199EC200D1D951 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4B17199EC200D1D951 /* Cocoa.framework */; };
 		4B3EFF6617199EC200D1D951 /* OCDiscount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4817199EC200D1D951 /* OCDiscount.framework */; };
 		4B3EFF6C17199EC200D1D951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF6A17199EC200D1D951 /* InfoPlist.strings */; };
 		4B3EFF6F17199EC200D1D951 /* OCDiscountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */; };
+		4B3EFF8617199F6E00D1D951 /* Csio.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF7917199F6E00D1D951 /* Csio.c */; };
+		4B3EFF8717199F6E00D1D951 /* emmatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF7A17199F6E00D1D951 /* emmatch.c */; };
+		4B3EFF8817199F6E00D1D951 /* generate.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF7B17199F6E00D1D951 /* generate.c */; };
+		4B3EFF8917199F6E00D1D951 /* html5.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF7C17199F6E00D1D951 /* html5.c */; };
+		4B3EFF8A17199F6E00D1D951 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF7D17199F6E00D1D951 /* markdown.c */; };
+		4B3EFF8B17199F6E00D1D951 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3EFF7E17199F6E00D1D951 /* markdown.h */; };
+		4B3EFF8C17199F6E00D1D951 /* mkdio.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF7F17199F6E00D1D951 /* mkdio.c */; };
+		4B3EFF8E17199F6E00D1D951 /* resource.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF8117199F6E00D1D951 /* resource.c */; };
+		4B3EFF8F17199F6E00D1D951 /* setup.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF8217199F6E00D1D951 /* setup.c */; };
+		4B3EFF9017199F6E00D1D951 /* tags.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF8317199F6E00D1D951 /* tags.c */; };
+		4B3EFF9117199F6E00D1D951 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF8417199F6E00D1D951 /* xml.c */; };
+		4B3EFF9417199F8200D1D951 /* blocktags in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF9317199F8200D1D951 /* blocktags */; };
+		4B3EFF9517199F9D00D1D951 /* OCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3EFF5817199EC200D1D951 /* OCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1929B06D2FDC8F16DE1FD13B /* table.markdown */ = {isa = PBXFileReference; lastKnownFileType = file.markdown; path = table.markdown; sourceTree = "<group>"; };
+		1929B7FACFF21FFD2C919252 /* OCHamcrest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OCHamcrest.framework; path = /Library/Frameworks/OCHamcrest.framework; sourceTree = "<absolute>"; };
+		1929B83854B60FFB3188263F /* notable.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = notable.html; sourceTree = "<group>"; };
+		1929B9B0EF80EC90A3A6B632 /* NSString+OCDiscount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+OCDiscount.m"; sourceTree = "<group>"; };
+		1929BA9DE027905EFC6F3B21 /* table.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = table.html; sourceTree = "<group>"; };
+		1929BED88B9E3217AB7AC8FF /* NSString+OCDiscount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+OCDiscount.h"; sourceTree = "<group>"; };
 		4B3EFF4817199EC200D1D951 /* OCDiscount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCDiscount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3EFF4B17199EC200D1D951 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		4B3EFF4E17199EC200D1D951 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -37,13 +61,23 @@
 		4B3EFF5517199EC200D1D951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B3EFF5717199EC200D1D951 /* OCDiscount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDiscount-Prefix.pch"; sourceTree = "<group>"; };
 		4B3EFF5817199EC200D1D951 /* OCDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDiscount.h; sourceTree = "<group>"; };
-		4B3EFF5917199EC200D1D951 /* OCDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscount.m; sourceTree = "<group>"; };
 		4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDiscountTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3EFF6117199EC200D1D951 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		4B3EFF6917199EC200D1D951 /* OCDiscountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCDiscountTests-Info.plist"; sourceTree = "<group>"; };
 		4B3EFF6B17199EC200D1D951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		4B3EFF6D17199EC200D1D951 /* OCDiscountTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDiscountTests.h; sourceTree = "<group>"; };
 		4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscountTests.m; sourceTree = "<group>"; };
+		4B3EFF7917199F6E00D1D951 /* Csio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = Csio.c; path = discount/Csio.c; sourceTree = "<group>"; };
+		4B3EFF7A17199F6E00D1D951 /* emmatch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = emmatch.c; path = discount/emmatch.c; sourceTree = "<group>"; };
+		4B3EFF7B17199F6E00D1D951 /* generate.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = generate.c; path = discount/generate.c; sourceTree = "<group>"; };
+		4B3EFF7C17199F6E00D1D951 /* html5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = html5.c; path = discount/html5.c; sourceTree = "<group>"; };
+		4B3EFF7D17199F6E00D1D951 /* markdown.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = markdown.c; path = discount/markdown.c; sourceTree = "<group>"; };
+		4B3EFF7E17199F6E00D1D951 /* markdown.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = markdown.h; path = discount/markdown.h; sourceTree = "<group>"; };
+		4B3EFF7F17199F6E00D1D951 /* mkdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mkdio.c; path = discount/mkdio.c; sourceTree = "<group>"; };
+		4B3EFF8117199F6E00D1D951 /* resource.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resource.c; path = discount/resource.c; sourceTree = "<group>"; };
+		4B3EFF8217199F6E00D1D951 /* setup.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = setup.c; path = discount/setup.c; sourceTree = "<group>"; };
+		4B3EFF8317199F6E00D1D951 /* tags.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tags.c; path = discount/tags.c; sourceTree = "<group>"; };
+		4B3EFF8417199F6E00D1D951 /* xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = xml.c; path = discount/xml.c; sourceTree = "<group>"; };
+		4B3EFF9317199F8200D1D951 /* blocktags */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = blocktags; path = discount/blocktags; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,15 +96,27 @@
 				4B3EFF6217199EC200D1D951 /* SenTestingKit.framework in Frameworks */,
 				4B3EFF6317199EC200D1D951 /* Cocoa.framework in Frameworks */,
 				4B3EFF6617199EC200D1D951 /* OCDiscount.framework in Frameworks */,
+				1929B33A015D291828935B65 /* OCHamcrest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1929B4118DAEB788A0B7083E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1929B06D2FDC8F16DE1FD13B /* table.markdown */,
+				1929BA9DE027905EFC6F3B21 /* table.html */,
+				1929B83854B60FFB3188263F /* notable.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4B3EFF3E17199EC200D1D951 = {
 			isa = PBXGroup;
 			children = (
+				4B3EFF9217199F7300D1D951 /* discount */,
 				4B3EFF5117199EC200D1D951 /* OCDiscount */,
 				4B3EFF6717199EC200D1D951 /* OCDiscountTests */,
 				4B3EFF4A17199EC200D1D951 /* Frameworks */,
@@ -93,6 +139,7 @@
 				4B3EFF4B17199EC200D1D951 /* Cocoa.framework */,
 				4B3EFF6117199EC200D1D951 /* SenTestingKit.framework */,
 				4B3EFF4D17199EC200D1D951 /* Other Frameworks */,
+				1929B7FACFF21FFD2C919252 /* OCHamcrest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -111,8 +158,9 @@
 			isa = PBXGroup;
 			children = (
 				4B3EFF5817199EC200D1D951 /* OCDiscount.h */,
-				4B3EFF5917199EC200D1D951 /* OCDiscount.m */,
 				4B3EFF5217199EC200D1D951 /* Supporting Files */,
+				1929B9B0EF80EC90A3A6B632 /* NSString+OCDiscount.m */,
+				1929BED88B9E3217AB7AC8FF /* NSString+OCDiscount.h */,
 			);
 			path = OCDiscount;
 			sourceTree = "<group>";
@@ -130,9 +178,9 @@
 		4B3EFF6717199EC200D1D951 /* OCDiscountTests */ = {
 			isa = PBXGroup;
 			children = (
-				4B3EFF6D17199EC200D1D951 /* OCDiscountTests.h */,
 				4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */,
 				4B3EFF6817199EC200D1D951 /* Supporting Files */,
+				1929B4118DAEB788A0B7083E /* Resources */,
 			);
 			path = OCDiscountTests;
 			sourceTree = "<group>";
@@ -146,6 +194,25 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4B3EFF9217199F7300D1D951 /* discount */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF9317199F8200D1D951 /* blocktags */,
+				4B3EFF7917199F6E00D1D951 /* Csio.c */,
+				4B3EFF7A17199F6E00D1D951 /* emmatch.c */,
+				4B3EFF7B17199F6E00D1D951 /* generate.c */,
+				4B3EFF7C17199F6E00D1D951 /* html5.c */,
+				4B3EFF7D17199F6E00D1D951 /* markdown.c */,
+				4B3EFF7E17199F6E00D1D951 /* markdown.h */,
+				4B3EFF7F17199F6E00D1D951 /* mkdio.c */,
+				4B3EFF8117199F6E00D1D951 /* resource.c */,
+				4B3EFF8217199F6E00D1D951 /* setup.c */,
+				4B3EFF8317199F6E00D1D951 /* tags.c */,
+				4B3EFF8417199F6E00D1D951 /* xml.c */,
+			);
+			name = discount;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -153,6 +220,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B3EFF9517199F9D00D1D951 /* OCDiscount.h in Headers */,
+				4B3EFF8B17199F6E00D1D951 /* markdown.h in Headers */,
+				1929BAAEBF6CBBEF8F7E9837 /* NSString+OCDiscount.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +299,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3EFF5617199EC200D1D951 /* InfoPlist.strings in Resources */,
+				4B3EFF9417199F8200D1D951 /* blocktags in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +308,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4B3EFF6C17199EC200D1D951 /* InfoPlist.strings in Resources */,
+				1929BB705E073E6DA4DE8A49 /* table.markdown in Resources */,
+				1929B23F1248C42FE7E38F70 /* table.html in Resources */,
+				1929B6D7E4AB65157A74DCB7 /* notable.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,7 +337,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B3EFF5A17199EC200D1D951 /* OCDiscount.m in Sources */,
+				4B3EFF8617199F6E00D1D951 /* Csio.c in Sources */,
+				4B3EFF8717199F6E00D1D951 /* emmatch.c in Sources */,
+				4B3EFF8817199F6E00D1D951 /* generate.c in Sources */,
+				4B3EFF8917199F6E00D1D951 /* html5.c in Sources */,
+				4B3EFF8A17199F6E00D1D951 /* markdown.c in Sources */,
+				4B3EFF8C17199F6E00D1D951 /* mkdio.c in Sources */,
+				4B3EFF8E17199F6E00D1D951 /* resource.c in Sources */,
+				4B3EFF8F17199F6E00D1D951 /* setup.c in Sources */,
+				4B3EFF9017199F6E00D1D951 /* tags.c in Sources */,
+				4B3EFF9117199F6E00D1D951 /* xml.c in Sources */,
+				1929B0E0F2096173BF8921AD /* NSString+OCDiscount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,6 +458,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -389,6 +474,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
+				INSTALL_PATH = "@executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -398,7 +484,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"${PROJECT_DIR}/../../../../Library/Frameworks\"/**",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				INFOPLIST_FILE = "OCDiscountTests/OCDiscountTests-Info.plist";
@@ -411,7 +500,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"\"${PROJECT_DIR}/../../../../Library/Frameworks\"/**",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				INFOPLIST_FILE = "OCDiscountTests/OCDiscountTests-Info.plist";
@@ -439,6 +531,7 @@
 				4B3EFF7417199EC200D1D951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B3EFF7517199EC200D1D951 /* Build configuration list for PBXNativeTarget "OCDiscountTests" */ = {
 			isa = XCConfigurationList;
@@ -447,6 +540,7 @@
 				4B3EFF7717199EC200D1D951 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

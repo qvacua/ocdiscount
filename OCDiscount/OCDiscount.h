@@ -1,13 +1,10 @@
-//
-//  OCDiscount.h
-//  OCDiscount
-//
-//  Created by Tae on 4/13/13.
-//  Copyright (c) 2013 Tae Won Ha. All rights reserved.
-//
+/**
+ * Tae Won Ha
+ * http://qvacua.com
+ * https://github.com/qvacua
+ *
+ * See LICENSE
+ */
 
-#import <Foundation/Foundation.h>
+#import "NSString+OCDiscount.h"
 
-@interface OCDiscount : NSObject
-
-@end
