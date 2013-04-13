@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B3EFF4C17199EC200D1D951 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4B17199EC200D1D951 /* Cocoa.framework */; };
+		4B3EFF5617199EC200D1D951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF5417199EC200D1D951 /* InfoPlist.strings */; };
+		4B3EFF5A17199EC200D1D951 /* OCDiscount.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF5917199EC200D1D951 /* OCDiscount.m */; };
+		4B3EFF6217199EC200D1D951 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF6117199EC200D1D951 /* SenTestingKit.framework */; };
+		4B3EFF6317199EC200D1D951 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4B17199EC200D1D951 /* Cocoa.framework */; };
+		4B3EFF6617199EC200D1D951 /* OCDiscount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4817199EC200D1D951 /* OCDiscount.framework */; };
+		4B3EFF6C17199EC200D1D951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF6A17199EC200D1D951 /* InfoPlist.strings */; };
+		4B3EFF6F17199EC200D1D951 /* OCDiscountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3EFF6417199EC200D1D951 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3EFF3F17199EC200D1D951 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3EFF4717199EC200D1D951;
+			remoteInfo = OCDiscount;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B3EFF4817199EC200D1D951 /* OCDiscount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OCDiscount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3EFF4B17199EC200D1D951 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4B3EFF4E17199EC200D1D951 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4B3EFF4F17199EC200D1D951 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4B3EFF5017199EC200D1D951 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4B3EFF5317199EC200D1D951 /* OCDiscount-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCDiscount-Info.plist"; sourceTree = "<group>"; };
+		4B3EFF5517199EC200D1D951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B3EFF5717199EC200D1D951 /* OCDiscount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDiscount-Prefix.pch"; sourceTree = "<group>"; };
+		4B3EFF5817199EC200D1D951 /* OCDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDiscount.h; sourceTree = "<group>"; };
+		4B3EFF5917199EC200D1D951 /* OCDiscount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscount.m; sourceTree = "<group>"; };
+		4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDiscountTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3EFF6117199EC200D1D951 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4B3EFF6917199EC200D1D951 /* OCDiscountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCDiscountTests-Info.plist"; sourceTree = "<group>"; };
+		4B3EFF6B17199EC200D1D951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4B3EFF6D17199EC200D1D951 /* OCDiscountTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDiscountTests.h; sourceTree = "<group>"; };
+		4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscountTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3EFF4417199EC200D1D951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EFF4C17199EC200D1D951 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EFF5C17199EC200D1D951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EFF6217199EC200D1D951 /* SenTestingKit.framework in Frameworks */,
+				4B3EFF6317199EC200D1D951 /* Cocoa.framework in Frameworks */,
+				4B3EFF6617199EC200D1D951 /* OCDiscount.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B3EFF3E17199EC200D1D951 = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF5117199EC200D1D951 /* OCDiscount */,
+				4B3EFF6717199EC200D1D951 /* OCDiscountTests */,
+				4B3EFF4A17199EC200D1D951 /* Frameworks */,
+				4B3EFF4917199EC200D1D951 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3EFF4917199EC200D1D951 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF4817199EC200D1D951 /* OCDiscount.framework */,
+				4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3EFF4A17199EC200D1D951 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF4B17199EC200D1D951 /* Cocoa.framework */,
+				4B3EFF6117199EC200D1D951 /* SenTestingKit.framework */,
+				4B3EFF4D17199EC200D1D951 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B3EFF4D17199EC200D1D951 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF4E17199EC200D1D951 /* AppKit.framework */,
+				4B3EFF4F17199EC200D1D951 /* CoreData.framework */,
+				4B3EFF5017199EC200D1D951 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4B3EFF5117199EC200D1D951 /* OCDiscount */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF5817199EC200D1D951 /* OCDiscount.h */,
+				4B3EFF5917199EC200D1D951 /* OCDiscount.m */,
+				4B3EFF5217199EC200D1D951 /* Supporting Files */,
+			);
+			path = OCDiscount;
+			sourceTree = "<group>";
+		};
+		4B3EFF5217199EC200D1D951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF5317199EC200D1D951 /* OCDiscount-Info.plist */,
+				4B3EFF5417199EC200D1D951 /* InfoPlist.strings */,
+				4B3EFF5717199EC200D1D951 /* OCDiscount-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4B3EFF6717199EC200D1D951 /* OCDiscountTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF6D17199EC200D1D951 /* OCDiscountTests.h */,
+				4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */,
+				4B3EFF6817199EC200D1D951 /* Supporting Files */,
+			);
+			path = OCDiscountTests;
+			sourceTree = "<group>";
+		};
+		4B3EFF6817199EC200D1D951 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B3EFF6917199EC200D1D951 /* OCDiscountTests-Info.plist */,
+				4B3EFF6A17199EC200D1D951 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4B3EFF4517199EC200D1D951 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4B3EFF4717199EC200D1D951 /* OCDiscount */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3EFF7217199EC200D1D951 /* Build configuration list for PBXNativeTarget "OCDiscount" */;
+			buildPhases = (
+				4B3EFF4317199EC200D1D951 /* Sources */,
+				4B3EFF4417199EC200D1D951 /* Frameworks */,
+				4B3EFF4517199EC200D1D951 /* Headers */,
+				4B3EFF4617199EC200D1D951 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCDiscount;
+			productName = OCDiscount;
+			productReference = 4B3EFF4817199EC200D1D951 /* OCDiscount.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B3EFF5F17199EC200D1D951 /* OCDiscountTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3EFF7517199EC200D1D951 /* Build configuration list for PBXNativeTarget "OCDiscountTests" */;
+			buildPhases = (
+				4B3EFF5B17199EC200D1D951 /* Sources */,
+				4B3EFF5C17199EC200D1D951 /* Frameworks */,
+				4B3EFF5D17199EC200D1D951 /* Resources */,
+				4B3EFF5E17199EC200D1D951 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3EFF6517199EC200D1D951 /* PBXTargetDependency */,
+			);
+			name = OCDiscountTests;
+			productName = OCDiscountTests;
+			productReference = 4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3EFF3F17199EC200D1D951 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Tae Won Ha";
+			};
+			buildConfigurationList = 4B3EFF4217199EC200D1D951 /* Build configuration list for PBXProject "OCDiscount" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4B3EFF3E17199EC200D1D951;
+			productRefGroup = 4B3EFF4917199EC200D1D951 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3EFF4717199EC200D1D951 /* OCDiscount */,
+				4B3EFF5F17199EC200D1D951 /* OCDiscountTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3EFF4617199EC200D1D951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EFF5617199EC200D1D951 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EFF5D17199EC200D1D951 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EFF6C17199EC200D1D951 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4B3EFF5E17199EC200D1D951 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3EFF4317199EC200D1D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EFF5A17199EC200D1D951 /* OCDiscount.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3EFF5B17199EC200D1D951 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3EFF6F17199EC200D1D951 /* OCDiscountTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3EFF6517199EC200D1D951 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3EFF4717199EC200D1D951 /* OCDiscount */;
+			targetProxy = 4B3EFF6417199EC200D1D951 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B3EFF5417199EC200D1D951 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3EFF5517199EC200D1D951 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4B3EFF6A17199EC200D1D951 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3EFF6B17199EC200D1D951 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3EFF7017199EC200D1D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4B3EFF7117199EC200D1D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4B3EFF7317199EC200D1D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
+				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		4B3EFF7417199EC200D1D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
+				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		4B3EFF7617199EC200D1D951 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
+				INFOPLIST_FILE = "OCDiscountTests/OCDiscountTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4B3EFF7717199EC200D1D951 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
+				INFOPLIST_FILE = "OCDiscountTests/OCDiscountTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3EFF4217199EC200D1D951 /* Build configuration list for PBXProject "OCDiscount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EFF7017199EC200D1D951 /* Debug */,
+				4B3EFF7117199EC200D1D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3EFF7217199EC200D1D951 /* Build configuration list for PBXNativeTarget "OCDiscount" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EFF7317199EC200D1D951 /* Debug */,
+				4B3EFF7417199EC200D1D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4B3EFF7517199EC200D1D951 /* Build configuration list for PBXNativeTarget "OCDiscountTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3EFF7617199EC200D1D951 /* Debug */,
+				4B3EFF7717199EC200D1D951 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3EFF3F17199EC200D1D951 /* Project object */;
+}
