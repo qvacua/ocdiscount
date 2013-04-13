@@ -5,3 +5,7 @@ Externals/*
 *.swp
 xcuserdata
 project.xcworkspace
+OCDiscount/config.h
+OCDiscount/blocktags
+OCDiscount/mkdio.h
+
