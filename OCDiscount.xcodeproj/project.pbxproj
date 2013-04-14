@@ -12,7 +12,7 @@
 		1929B33A015D291828935B65 /* OCHamcrest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1929B7FACFF21FFD2C919252 /* OCHamcrest.framework */; };
 		1929B436DC91F56BD5512446 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BC19D2474AF7C6616670 /* markdown.h */; };
 		1929B6D7E4AB65157A74DCB7 /* notable.html in Resources */ = {isa = PBXBuildFile; fileRef = 1929B83854B60FFB3188263F /* notable.html */; };
-		1929BAAEBF6CBBEF8F7E9837 /* NSString+OCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BED88B9E3217AB7AC8FF /* NSString+OCDiscount.h */; settings = {ATTRIBUTES = (); }; };
+		1929BAAEBF6CBBEF8F7E9837 /* NSString+OCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = 1929BED88B9E3217AB7AC8FF /* NSString+OCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1929BB705E073E6DA4DE8A49 /* table.markdown in Resources */ = {isa = PBXBuildFile; fileRef = 1929B06D2FDC8F16DE1FD13B /* table.markdown */; };
 		4B3EFF4C17199EC200D1D951 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B3EFF4B17199EC200D1D951 /* Cocoa.framework */; };
 		4B3EFF5617199EC200D1D951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF5417199EC200D1D951 /* InfoPlist.strings */; };
