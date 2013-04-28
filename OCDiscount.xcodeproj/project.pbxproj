@@ -471,7 +471,7 @@
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCDiscount";
 				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
@@ -488,7 +488,7 @@
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCDiscount";
 				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
-				INSTALL_PATH = "@executable_path/../Frameworks";
+				INSTALL_PATH = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = framework;
 			};
