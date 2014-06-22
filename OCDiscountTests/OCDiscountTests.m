@@ -6,12 +6,13 @@
  * See LICENSE
  */
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 #import <OCDiscount/OCDiscount.h>
+
 #define HC_SHORTHAND
 #import <OCHamcrest/OCHamcrest.h>
 
-@interface OCDiscountTests : SenTestCase
+@interface OCDiscountTests : XCTestCase
 @end
 
 /**

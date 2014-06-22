@@ -1,11 +1,33 @@
+# Xcode
 .DS_Store
-build/*
-.idea
-Externals/*
-*.swp
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
 xcuserdata
-project.xcworkspace
-OCDiscount/config.h
-OCDiscount/blocktags
-OCDiscount/mkdio.h
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
 
+# CocoaPods
+Pods
+
+# Vim
+*.swp
+
+# Custom
+build/*
+
+# Netbeans
+nbproject/*
+
+# discount
+discount/*
