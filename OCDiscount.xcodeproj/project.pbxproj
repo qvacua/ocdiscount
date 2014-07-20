@@ -21,7 +21,8 @@
 		4B3EFF6C17199EC200D1D951 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B3EFF6A17199EC200D1D951 /* InfoPlist.strings */; };
 		4B3EFF6F17199EC200D1D951 /* OCDiscountTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */; };
 		4B3EFF9517199F9D00D1D951 /* OCDiscount.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B3EFF5817199EC200D1D951 /* OCDiscount.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4B61D4FF1956DD4B00BB3FD8 /* libmarkdown.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B61D4FE1956DD4B00BB3FD8 /* libmarkdown.dylib */; };
+		4B61D50A1956F49D00BB3FD8 /* libmarkdown.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B61D5091956F49D00BB3FD8 /* libmarkdown.dylib */; };
+		4B61D50B1956F4A900BB3FD8 /* libmarkdown.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4B61D5091956F49D00BB3FD8 /* libmarkdown.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +34,19 @@
 			remoteInfo = OCDiscount;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B61D5051956F22300BB3FD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 6;
+			files = (
+				4B61D50B1956F4A900BB3FD8 /* libmarkdown.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		056393216C884367A434D1D4 /* Pods-OCDiscountTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCDiscountTests.xcconfig"; path = "Pods/Pods-OCDiscountTests.xcconfig"; sourceTree = "<group>"; };
@@ -48,11 +62,11 @@
 		4B3EFF5517199EC200D1D951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B3EFF5717199EC200D1D951 /* OCDiscount-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OCDiscount-Prefix.pch"; sourceTree = "<group>"; };
 		4B3EFF5817199EC200D1D951 /* OCDiscount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCDiscount.h; sourceTree = "<group>"; };
-		4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDiscountTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3EFF6017199EC200D1D951 /* OCDiscountTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCDiscountTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3EFF6917199EC200D1D951 /* OCDiscountTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OCDiscountTests-Info.plist"; sourceTree = "<group>"; };
 		4B3EFF6B17199EC200D1D951 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4B3EFF6E17199EC200D1D951 /* OCDiscountTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCDiscountTests.m; sourceTree = "<group>"; };
-		4B61D4FE1956DD4B00BB3FD8 /* libmarkdown.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmarkdown.dylib; path = discount/libmarkdown.dylib; sourceTree = "<group>"; };
+		4B61D5091956F49D00BB3FD8 /* libmarkdown.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libmarkdown.dylib; path = discount/libmarkdown.dylib; sourceTree = "<group>"; };
 		769A546E489148A2A830ADA4 /* libPods-OCDiscountTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCDiscountTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -61,8 +75,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B61D50A1956F49D00BB3FD8 /* libmarkdown.dylib in Frameworks */,
 				4B3EFF4C17199EC200D1D951 /* Cocoa.framework in Frameworks */,
-				4B61D4FF1956DD4B00BB3FD8 /* libmarkdown.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				4B3EFF4817199EC200D1D951 /* OCDiscount.framework */,
-				4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */,
+				4B3EFF6017199EC200D1D951 /* OCDiscountTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +127,7 @@
 		4B3EFF4A17199EC200D1D951 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				4B61D4FE1956DD4B00BB3FD8 /* libmarkdown.dylib */,
+				4B61D5091956F49D00BB3FD8 /* libmarkdown.dylib */,
 				4B3EFF4B17199EC200D1D951 /* Cocoa.framework */,
 				1929B0308ECA258A5697A766 /* XCTest.framework */,
 				769A546E489148A2A830ADA4 /* libPods-OCDiscountTests.a */,
@@ -185,6 +199,7 @@
 				4B3EFF4417199EC200D1D951 /* Frameworks */,
 				4B3EFF4517199EC200D1D951 /* Headers */,
 				4B3EFF4617199EC200D1D951 /* Resources */,
+				4B61D5051956F22300BB3FD8 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -203,8 +218,8 @@
 				4B3EFF5B17199EC200D1D951 /* Sources */,
 				4B3EFF5C17199EC200D1D951 /* Frameworks */,
 				4B3EFF5D17199EC200D1D951 /* Resources */,
-				4B3EFF5E17199EC200D1D951 /* ShellScript */,
 				3DCD3AF757F849108E3EFCC5 /* Copy Pods Resources */,
+				4B3EFF5E17199EC200D1D951 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -213,7 +228,7 @@
 			);
 			name = OCDiscountTests;
 			productName = OCDiscountTests;
-			productReference = 4B3EFF6017199EC200D1D951 /* OCDiscountTests.octest */;
+			productReference = 4B3EFF6017199EC200D1D951 /* OCDiscountTests.xctest */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -321,7 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd discount\n./configure.sh --enable-all-features --with-dl=Both --shared\nmake";
+			shellScript = "cd discount\nmake clean\n./configure.sh --enable-all-features --with-dl=Both --shared\nmake\ninstall_name_tool -id @rpath/libmarkdown.dylib libmarkdown.dylib";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -444,6 +459,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCDiscount";
 				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/discount",
@@ -467,6 +483,7 @@
 				HEADER_SEARCH_PATHS = "$(SRCROOT)/OCDiscount";
 				INFOPLIST_FILE = "OCDiscount/OCDiscount-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/discount",
@@ -490,7 +507,7 @@
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				INFOPLIST_FILE = "OCDiscountTests/OCDiscountTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
@@ -507,7 +524,7 @@
 				GCC_PREFIX_HEADER = "OCDiscount/OCDiscount-Prefix.pch";
 				INFOPLIST_FILE = "OCDiscountTests/OCDiscountTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = octest;
+				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
