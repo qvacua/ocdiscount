@@ -336,7 +336,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "cd discount\nmake clean\n./configure.sh --enable-all-features --with-dl=Both --shared\nmake\ninstall_name_tool -id @rpath/libmarkdown.dylib libmarkdown.dylib";
+			shellScript = "cd discount\nmake clean\n./configure.sh --enable-all-features --with-dl=Both --shared --with-fenced-code\nmake\ninstall_name_tool -id @rpath/libmarkdown.dylib libmarkdown.dylib";
 		};
 /* End PBXShellScriptBuildPhase section */
 
